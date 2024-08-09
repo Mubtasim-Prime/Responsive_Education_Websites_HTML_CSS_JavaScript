@@ -454,11 +454,15 @@ footer .copyright .pro-links i:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     #registration .reminder .time {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 }
