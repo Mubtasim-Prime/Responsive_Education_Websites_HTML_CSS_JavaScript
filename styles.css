@@ -430,7 +430,7 @@ footer .copyright {
     flex-wrap: wrap;
 }
 
-footer .copyright p{
+footer .copyright p {
     color: #fff;
 }
 
@@ -446,4 +446,19 @@ footer .copyright .pro-links i {
 footer .copyright .pro-links i:hover {
     background-color: #FDC93B;
     color: #2c2c2c;
+}
+
+@media (max-width:475px) {
+    #registration {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #registration .reminder .time {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
 }
