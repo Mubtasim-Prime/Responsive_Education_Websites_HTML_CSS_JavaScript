@@ -759,6 +759,9 @@ footer .copyright .pro-links i:hover {
 
 #contact {
     padding: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 #contact .getin {
@@ -810,6 +813,84 @@ footer .copyright .pro-links i:hover {
 #contact .getin .getin-detailes .pro-links i {
     margin-right: 8px;
 }
+
+#contact .form {
+    width: 60%;
+    background-color: #f7f6fa;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#contact .form h4 {
+    font-size: 24px;
+    color: #2c234d;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+#contact .form p {
+    color: #686875;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+
+#contact .form .form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#contact .form .form-row input {
+    width: 48%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    color: #7e7c87;
+    outline: none;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#contact .form .form-col input,
+#contact .form .form-col textarea {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    color: #7e7c87;
+    outline: none;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#contact .form button {
+    font-size: 0.9rem;
+    padding: 13px 25px;
+    background: rgb(21, 21, 100);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+}
+
+#map {
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 8vw;
+}
+
+#map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 
@@ -880,4 +961,39 @@ footer .copyright .pro-links i:hover {
         width: 100%;
         margin-top: 70px;
     }
+
+    /* Contact */
+
+    #contact {
+        padding: 8vw 4vw;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    #contact .getin {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact .form {
+        width: 100%;
+        padding: 40px 30px;
+    }
+
+    #contact .form .form-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #contact .form .form-row input {
+        width: 100%
+    }
+
+    #about-home {
+        height: 45vh;
+    }
+
 }
